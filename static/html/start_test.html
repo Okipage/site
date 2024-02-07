@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Начать тестирование</title>
+</head>
+
+<body>
+    <div>
+        Вы готовы начать тестирование?
+    </div>
+    <button onclick="startTesting()">Начать</button>
+    <button onclick="window.location.replace('http://localhost:8000/home');">Назад</button>
+
+    <script>
+        function startTesting() {
+            window.location.replace('http://localhost:8000/quiz');
+        }
+    </script>
+</body>
+
+</html>
